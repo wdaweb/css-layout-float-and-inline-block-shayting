@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube-float</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+      position: relative;
+      height: 100vh;
+    }
+
+    .container {
+      width: 1080px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+
+    }
+
+    .card {
+      width: 250px;
+      margin: 0 10px 45px;
+      position: relative;
+      overflow: auto;
+      float: left;
+    }
+
+
+    img.videoPic {
+      width: 100%;
+      height: 140px;
+      margin-bottom: 10px;
+    }
+
+    img.avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+
+    .content {
+      width: 200px;
+      float: right;
+    }
+
+    span.time {
+      position: absolute;
+      right: 5px;
+      top: 115px;
+      font-size: 12px;
+      color: #eee;
+      padding: 1px 5px;
+      background-color: rgba(0, 0, 0, .8);
+    }
+
+    h3 {
+      color: white;
+      line-height: 20px;
+      margin: 0 0 5px 0;
+
+    }
+
+    p {
+      font-size: 14px;
+      margin: 0 0 1px 0;
+      color: #bbb;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <img class="videoPic" src="./img/01.jpg" alt="video cover">
+      <img class="avatar" src="./img/c1.jpeg" alt="avatar">
+      <div class="content">
+        <h3>wannasleep《裸雀》Official Music Video</h3>
+        <p>想睡覺</p>
+        <p>觀看次數：100萬次 &bull; 1個月前</p>
+      </div>
+      <span class="time">0:03:32</span>
+    </div>
+    <div class="card">
+      <img class="videoPic" src="./img/02.jpg" alt="video cover">
+      <img class="avatar" src="./img/c2.jpeg" alt="avatar">
+      <div class="content">
+        <h3>宮崎駿鋼琴音樂整合 治愈系抒情鋼琴音樂</h3>
+        <p>音樂盒子</p>
+        <p>觀看次數：1000萬次 &bull; 1年前</p>
+      </div>
+      <span class="time">1:04:32</span>
+    </div>
+    <div class="card">
+      <img class="videoPic" src="./img/03.jpg" alt="video cover">
+      <img class="avatar" src="./img/c3.jpeg" alt="avatar">
+      <div class="content">
+        <h3>COVID-19 新冠病毒台灣疫情 新增本土1例</h3>
+        <p>CTS新聞</p>
+        <p>觀看次數：800萬次 &bull; 2個月前</p>
+      </div>
+      <span class="time">0:05:20</span>
+    </div>
+    <div class="card">
+      <img class="videoPic" src="./img/04.jpg" alt="video cover">
+      <img class="avatar" src="./img/c4.jpeg" alt="avatar">
+      <div class="content">
+        <h3>茄子蛋-愛情你比我想的閣較偉大</h3>
+        <p>EggPlant</p>
+        <p>觀看次數：1000萬次 &bull; 3個月前</p>
+      </div>
+      <span class="time">0:04:22</span>
+    </div>
+    <div class="card">
+      <img class="videoPic" src="./img/05.jpg" alt="video cover">
+      <img class="avatar" src="./img/c5.jpeg" alt="avatar">
+      <div class="content">
+        <h3>大胃王挑戰能否成為 店內首位成功？4kg份量</h3>
+        <p>吃貨豪豪</p>
+        <p>觀看次數：10萬次 &bull; 2個月前</p>
+      </div>
+      <span class="time">0:03:32</span>
+    </div>
+    <div class="card">
+      <img class="videoPic" src="./img/06.jpg" alt="video cover">
+      <img class="avatar" src="./img/c6.jpeg" alt="avatar">
+      <div class="content">
+        <h3>盧廣仲 Crowd Lu - 刻在我心底的名字</h3>
+        <p>盧廣仲</p>
+        <p>觀看次數：500萬次 &bull; 8個月前</p>
+      </div>
+      <span class="time">0:05:02</span>
+    </div>
+    <div class="card">
+      <img class="videoPic" src="./img/07.jpg" alt="video cover">
+      <img class="avatar" src="./img/c7.jpeg" alt="avatar">
+      <div class="content">
+        <h3>
+          Yuki Ishikawa 石川祐希 日本的王牌</h3>
+        <p>JPN volleyball</p>
+        <p>觀看次數：100萬次 &bull; 8個月前</p>
+      </div>
+      <span class="time">0:07:28</span>
+    </div>
+    <div class="card">
+      <img class="videoPic" src="./img/08.jpg" alt="video cover">
+      <img class="avatar" src="./img/c8.jpeg" alt="avatar">
+      <div class="content">
+        <h3>排球少年!! 賭在春高排球上的青春</h3>
+        <p>animax</p>
+        <p>觀看次數：900萬次 &bull; 4個月前</p>
+      </div>
+      <span class="time">0:20:09</span>
+    </div>
+  </div>
+</body>
+
+</html>
